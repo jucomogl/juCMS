@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}CMS{% endblock %}</title>
+</head>
+<body>
+    {% block header %}<header>Header</header>{% endblock %}
+    {% block menu %}<nav>Menu</nav>{% endblock %}
+    <main>
+        {% block content %}Content{% endblock %}
+    </main>
+    {% block footer %}<footer>Footer</footer>{% endblock %}
+</body>
+</html>
